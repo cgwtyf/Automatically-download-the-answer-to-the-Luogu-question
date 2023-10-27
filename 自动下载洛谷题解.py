@@ -36,7 +36,7 @@ user=wd.find_element(By.CSS_SELECTOR,"#app > div.main-container > main > div > d
 user.send_keys("大橙子老师")
 # 定位密码
 password=wd.find_element(By.CSS_SELECTOR,"#app > div.main-container > main > div > div > div > div > div > div > div:nth-child(2) > div > input")
-password.send_keys("luogu19990326")
+password.send_keys("你自己的密码")
 # 验证码
 identifyingCode=wd.find_element(By.CSS_SELECTOR,"#app > div.main-container > main > div > div > div > div > div > div > div:nth-child(3) > div > div.refined-input.input-wrap.frame > input")
 identifyingCode.click()
